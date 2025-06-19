@@ -1,0 +1,7 @@
+[
+  {
+    "type": "item_action",
+    "id": "DUPLICATION_GEL",
+    "name": { "str": "Replicate item" }
+  }
+]

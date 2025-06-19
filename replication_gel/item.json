@@ -1,0 +1,20 @@
+[
+  {
+    "id": "duplication_gel",
+    "type": "TOOL",
+	  "looks_like": "slime_scrap",
+    "name": { "str": "FRG-7 gel" },
+    "description": "A dense, biologically-active carbon-black nanogel suspended in a reactive polymer matrix. Designed for rapid, off-grid replication of field equipment, the FDG-7 enables soldiers to produce emergency replications of mission-critical gear using only the gel itself.",
+    "weight": "2kg",
+    "volume": "2L",
+    "price": "20000 USD",
+    "//": "high, because this can be used to duplicate literally any item",
+    "price_postapoc": "2000 USD",
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "carbon_fiber" ],
+    "symbol": "@",
+    "color": "light_gray",
+    "use_action": [ "REPLICATION_GEL" ]
+  }
+]

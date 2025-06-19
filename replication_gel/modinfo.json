@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "frg7_gel",
+    "name": "Replication Gel",
+    "authors": [ "Kota" ],
+    "description": "Adds FRG-7 gel which can be used to replicate any item. Found in military and rare loot locations.",
+    "category": "content",
+    "lua_api_version": 2,
+    "dependencies": [ "bn" ]
+  }
+]
