@@ -1,6 +1,6 @@
 [
   {
-    "id": "duplication_gel",
+    "id": "replication_gel",
     "type": "TOOL",
 	  "looks_like": "slime_scrap",
     "name": { "str": "FRG-7 gel" },
