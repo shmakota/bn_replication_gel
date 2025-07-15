@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_action",
+    "id": "OPEN_BUY_SHOP",
+    "name": { "str": "Buy items" }
+  },
+  {
+    "type": "item_action",
+    "id": "OPEN_WAVE_CONTROLLER",
+    "name": { "str": "Open wave controller" }
+  }
+]

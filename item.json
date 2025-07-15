@@ -1,0 +1,118 @@
+[
+  {
+    "id": "shopping_tablet",
+    "type": "TOOL",
+	  "looks_like": "slime_scrap",
+    "name": { "str": "shopping tablet" },
+    "description": "A shopping tablet that has a LIDAR scanner that allows you to scan a safe landing zone for a drone shipment.",
+    "weight": "2kg",
+    "volume": "2L",
+    "price": "20000 USD",
+    "//": "high, because this can be used to duplicate literally any item",
+    "price_postapoc": "2000 USD",
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "carbon_fiber" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "use_action": [ "OPEN_BUY_SHOP" ]
+  },
+  {
+    "id": "wave_tablet",
+    "type": "TOOL",
+	  "looks_like": "slime_scrap",
+    "name": { "str": "wave tablet" },
+    "description": "A shopping tablet that has a LIDAR scanner that allows you to scan a safe landing zone for a drone shipment.",
+    "weight": "2kg",
+    "volume": "2L",
+    "price": "20000 USD",
+    "//": "high, because this can be used to duplicate literally any item",
+    "price_postapoc": "2000 USD",
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "carbon_fiber" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "use_action": [ "OPEN_WAVE_CONTROLLER" ]
+  },
+  {
+    "id": "generator_placer",
+    "type": "TOOL",
+    "name": "portable generator",
+    "looks_like": "trash_can_empty",
+    "description": "A portable generator. Once deployed, it can't be picked up again.",
+    "weight": "50 kg",
+    "volume": "50 L",
+    "price": "10 USD",
+    "price_postapoc": "10 cent",
+    "material": [ "plastic" ],
+    "symbol": "U",
+    "color": "dark_gray",
+    "use_action": { "type": "place_monster", "monster_id": "mon_generator", "friendly_msg": "You deploy the portable generator.", "moves": 100 }
+  },
+  {
+    "id": "gum",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str_sp": "chewing gum" },
+    "description": "Sugar-free chewing gum wrapped in bright pink packaging, with a question mark on the label.  It's a mystery what flavor it is, but the label claims there's 20 unique flavors.",
+    "category": "food",
+    "weight": "3 g",
+    "volume": "250 ml",
+    "price": "1 USD",
+    "price_postapoc": "1 USD",
+    "charges": 10,
+    "stack_size": 100,
+    "symbol": "*",
+    "color": "pink",
+    "stim": 1,
+    "fun": 2,
+    "flags": [ "NO_INGEST", "UC_VALUE_128" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You chew your chewing gum.",
+      "snippet_category": "chewing_gum_flavor",
+      "snippet_chance": 1
+    }
+  },
+  {
+    "type": "scenario",
+    "id": "wave_survivor",
+    "name": "Wave Survivor",
+    "points": 0,
+    "description": "You need to deploy your generator, fast. They are approaching quickly.",
+    "allowed_locs": [ "sloc_field" ],
+    "professions": [ "wave_surv" ],
+    "start_name": "Field",
+    "flags": [ "CITY_START", "LONE_START" ]
+  },
+  {
+    "type": "profession",
+    "id": "wave_surv",
+    "name": "Wave Survivor",
+    "description": "Some would say that there's nothing particularly notable about you.  But you've survived, and that's more than most could say right now.",
+    "points": 0,
+    "items": {
+      "both": {
+        "items": [
+          "jeans",
+          "longshirt",
+          "socks",
+          "sneakers",
+          "mbag",
+          "pockknife",
+          "water_clean",
+          "smart_phone",
+          "matches",
+          "wristwatch",
+          "generator_placer",
+          { "item": "shopping_tablet", "custom-flags": [ "auto_wield" ] },
+          { "item": "wave_tablet" }, 
+          { "item": "crowbar" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+  }
+]

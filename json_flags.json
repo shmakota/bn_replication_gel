@@ -1,0 +1,56 @@
+[
+  {
+    "id": "UC_VALUE_1",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>1 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_2",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>2 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_4",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>4 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_8",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>8 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_16",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>16 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_32",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>32 UC</info> when dematerialized."
+  },
+  {
+    "id": "UC_VALUE_64",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>64 UC</info> when dematerialized.."
+  },
+  {
+    "id": "UC_VALUE_128",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>128 UC</info> when dematerialized.."
+  },
+  {
+    "id": "UC_VALUE_256",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item adds <info>256 UC</info> when dematerialized."
+  }
+]
